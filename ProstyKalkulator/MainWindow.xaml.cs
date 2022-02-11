@@ -29,6 +29,9 @@ namespace ProstyKalkulator
         {
             Button b = sender as Button;
             tb.Text += b.Content.ToString();
+
+
+
         }
 
         private void Result_click(object sender, RoutedEventArgs e)
